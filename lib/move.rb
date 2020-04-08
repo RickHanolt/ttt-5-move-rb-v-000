@@ -7,6 +7,6 @@ puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 # code your input_to_index and move method here!
-def input_to_index(user_input)
+def input_to_index(user_input = gets.strip)
   index = user_input.to_i - 1
 end
